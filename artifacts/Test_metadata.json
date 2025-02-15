@@ -13,13 +13,7 @@
 			{
 				"inputs": [],
 				"name": "getResult",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
+				"outputs": [],
 				"stateMutability": "pure",
 				"type": "function"
 			}
@@ -37,7 +31,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"prac5.sol": "Test"
+			"prac6.sol": "Test"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +45,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"prac5.sol": {
-			"keccak256": "0xed919fd35ece36db63a74617c1ec05c4322aab1db9bd759212f6c6f3c265df72",
+		"prac6.sol": {
+			"keccak256": "0x1326a39e3cd056ef5c15b5296d4e62ae9e44cfd96e03a6349cb0d66137b0decb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://df4f63cb4b4190a5bb25a18bf32c5662d843198307cd6934487700fdbd1e5563",
-				"dweb:/ipfs/QmPEyJ4eu3o6s81YefwkXt1T6A5THEGBGusUQJXbfGrwQ4"
+				"bzz-raw://5431a6204e8ccf8160fc603332cf936309d7a069bcde1787c1489e208ea78f01",
+				"dweb:/ipfs/Qma1UhDu1NTP4cvKhpmHe9DV3aaXS3E3zN7HazVZLCDZgJ"
 			]
 		}
 	},
