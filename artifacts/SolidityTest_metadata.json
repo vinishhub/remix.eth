@@ -7,7 +7,38 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "testPgmResult",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dec",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,7 +46,85 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "diff",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "div",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mul",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -32,7 +141,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Functions.sol": "SolidityTest"
+			"Arthimeticoperator.sol": "SolidityTest"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +155,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Functions.sol": {
-			"keccak256": "0x1690abefc33f642f224b72f2470e7155f7e2253ade6f0219718a9bf293ef14b8",
+		"Arthimeticoperator.sol": {
+			"keccak256": "0x3b32d5a46e3070dc5e0b4e852cc9569e6e5da7f13ea36022297ad1d88ff7ede9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b9fabc9a5833caf9f34c11f745f0cd290f66c6c2962336c90d67dcae85ec2d9b",
-				"dweb:/ipfs/QmVAib64YM8uQHuRNZW4uaFGdytnxaDoyo593YM3VDsrSz"
+				"bzz-raw://baafc0dabbac1e88444f1bce2737a89ed5815ed4767b5768fa9feaba0515fcf5",
+				"dweb:/ipfs/QmZ7BEvFLsLBweChJVHVySpXf8wFf4VxBRN5psfFPM8Et9"
 			]
 		}
 	},

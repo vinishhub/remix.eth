@@ -7,72 +7,45 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "get",
+				"name": "book",
 				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
 					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "author",
+						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "y",
+						"name": "book_id",
 						"type": "uint256"
 					}
 				],
-				"name": "set",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBookId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setBook",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sum",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "var1",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "var2",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -89,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts.sol": "Test"
+			"structs.sol": "Test"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -103,12 +76,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts.sol": {
-			"keccak256": "0xde6cba7f2ae081b8db3fb790a0e2696b18ff47c85734426e22f4b0c406d09f5d",
+		"structs.sol": {
+			"keccak256": "0xe21fd2c79b7d69acb02ed8962e19a59a584cd016744d4789abd6ab1b646e60db",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2ddfcaa12b64143c565486167793786ebfd9b45cafb041d6442171dff845add4",
-				"dweb:/ipfs/Qmd1PdT64v7vU39XKSCpgMdRMQSbF6j49kz38xutGFuCLn"
+				"bzz-raw://a06700c520c62301f821dcdfbcdabb3ff282c11d55efc8eef449fc8f0248880f",
+				"dweb:/ipfs/QmbVB9kcckPhVfP2Rtnd7126rn79BesqCHBJUeB89fNzNJ"
 			]
 		}
 	},

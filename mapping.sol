@@ -10,3 +10,4 @@ contract LedgerBalance {
         return balance[msg.sender];
     }
 }
+//Execute Mapping 2 as well
