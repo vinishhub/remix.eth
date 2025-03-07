@@ -13,12 +13,25 @@
 						"type": "address"
 					}
 				],
-				"name": "balance",
+				"name": "name",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "printSender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -29,9 +42,9 @@
 				"name": "updateBalance",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -51,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"mapping.sol": "LedgerBalance"
+			"Mapping2.sol": "LedgerBalance"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -65,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"mapping.sol": {
-			"keccak256": "0x66006583d30397262220048155e9010889be208a139870388afd46f61fc0fa26",
+		"Mapping2.sol": {
+			"keccak256": "0x434b82f44a4abd6add819524fc0d7abde9621ebf319f8b2441c571f03f6a7632",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7906a227fdc962164e75d4549751249d630b12d891e44d0ce7daf0d5268cfc77",
-				"dweb:/ipfs/QmaPcydHWX9JgRks1CU1LmERZWTG3Xtk6EsxjhqWBBw9Qh"
+				"bzz-raw://fc9b02087748847ee5c0e413797777eeada2d66e5062e7280bd72c86d5ad502b",
+				"dweb:/ipfs/Qmcy8tgSr3asPp5RmJP1h7NQfeoTcFG9EFGXG8x5fqeyok"
 			]
 		}
 	},
