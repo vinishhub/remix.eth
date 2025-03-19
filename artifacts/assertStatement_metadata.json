@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "sum",
+						"type": "uint8"
+					}
+				],
+				"name": "checkOverflow",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assertstatement2.sol": "assertStatement"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assertstatement2.sol": {
+			"keccak256": "0xfd82821536cd396b80d597293150ce25b55647adb9a71df3a4cd892ed66a199e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e4486e9d0762a85c18114f6bde0434d88851d610e01bfb67fa8b796b057c03be",
+				"dweb:/ipfs/QmdiX5jtfVvQd3hNZWdUim4berwDu9e3xeQVQrgEcK2k6Q"
+			]
+		}
+	},
+	"version": 1
+}
